@@ -1,0 +1,187 @@
+.home-con {
+  background-image: url("https://d3hne3c382ip58.cloudfront.net/resized/1920x700/wildlife-landscapes-and-nature-tours-in-japan-400X400_.JPG");
+  background-size: cover;
+  padding: 60px 50px;
+}
+.navbar {
+  padding: 10px 50px !important;
+}
+nav li {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.navbar-brand {
+  color: rgb(59, 195, 91) !important;
+  font-size: 2em !important;
+  font-weight: 700;
+}
+.navbar-brand span {
+  color: rgb(11, 150, 171);
+}
+li a {
+  color: black !important;
+}
+.home-con h1,
+p {
+  font-family: sans-serif;
+  color: #ffffff;
+}
+.home-con h1 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+.home-con p {
+  font-weight: 400;
+  font-size: 1.15em;
+}
+
+.form {
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+.form-head {
+  display: flex;
+}
+.form-head h2 {
+  font-size: 1.2em;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+  color: #565555;
+}
+.form-head h2:nth-child(1) {
+  background-color: black;
+  color: #eceaea;
+}
+.form-content-1 {
+  margin-top: 30px;
+  padding: 15px;
+  display: flex;
+}
+.destination-con {
+  border: 1px solid;
+  width: 20%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.time-con {
+  padding: 5px 10px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  align-items: center;
+  margin: 0px 10px;
+}
+.time-para {
+  color: #565555;
+  margin: 0px 10px;
+  font-size: 0.8em !important;
+}
+.check-in {
+  text-align: left;
+}
+.check-out {
+  text-align: right;
+}
+.count-con {
+  padding: 5px 10px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1px solid;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 10px 0px 0px;
+}
+.btn {
+  background-color: transparent;
+  padding: 0px !important;
+  text-align: left !important;
+}
+.inner-form {
+  margin: 10px 20px;
+}
+.search-con {
+  width: 5%;
+  background-color: black;
+  border-radius: 10px;
+  text-align: center;
+}
+.search-con button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5em;
+  color: #ffffff;
+  height: 70px;
+}
+.form-control {
+  border: none !important;
+  padding: 0px !important;
+}
+label {
+  font-size: 0.95em;
+  color: #565555;
+}
+input {
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+}
+.star-con {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.star-con p {
+  color: black;
+  padding: 0px;
+  margin: 0px 10px 0px 0px;
+  font-size: 1em;
+}
+
+@media (min-width: 992px) {
+  .navbar-collapse {
+    display: flex;
+    justify-content: flex-end !important;
+  }
+}
+@media (max-width: 991px) {
+  .form-content-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-content-1 div {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .time-con div {
+    width: 25%;
+  }
+  .time-con div input {
+    width: 130px;
+  }
+  .time-para {
+    font-size: 1.5em;
+  }
+  .check-out {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .inner-form {
+    padding-left: 15px;
+  }
+}
